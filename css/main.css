@@ -152,7 +152,11 @@ h6, .h06 {
 .form-field #contactMessage {
 	border: 0.2px black solid;
 }
-
+#profile_img {
+	margin-right: 4%;
+	margin-bottom: 4%;
+	display: inline-block;
+}
 p img {
 	margin: 0;
 }
@@ -1434,6 +1438,7 @@ header .top-bar {
 }
 .intro-social li a, .intro-social li a:visited {
 	color: #FFFFFF;
+	/* color: #cc005f; */
 }
 .intro-social li a:hover, .intro-social li a:focus {
 	color: #cc005f;
@@ -2395,6 +2400,10 @@ header .top-bar {
 	/* color: #FFFFFF; */
 	color: white;
 }
+.form-field.submitform button.form-field.submitform{
+	border-bottom: none;
+}
+
 #contact button.submitform:hover, #contact button.submitform:focus {
 	background: #cc005f;
 }
