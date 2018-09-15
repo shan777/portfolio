@@ -150,7 +150,10 @@ h6, .h06 {
 	letter-spacing: .15rem;
 }
 .form-field #contactMessage {
-	border: 0.2px black solid;
+	border-bottom: 0.2px black solid;
+	border-left: 0.2px black solid;
+	border-right: 0.2px black solid;
+
 }
 #profile_img {
 	margin-right: 4%;
