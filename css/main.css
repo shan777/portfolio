@@ -1,34 +1,3 @@
-/**
- * =================================================================== 
- *
- *  Kards v1.0 Main Stylesheet
- *  url: styleshout.com
- *  03-01-2016
- *  ------------------------------------------------------------------
- *  TOC:
- *  01. webfonts and iconfonts
- *  02. base style overrides
- *  03. typography & general theme styles
- *  04. preloader
- *  05. forms
- *  06. buttons 
- *  07. other components
- *  08. common styles
- *  09. header styles
- *  10. intro
- *  11. about
- *  12. resume
- *  13. portfolio
- *  14. call-to-action section
- *  15. services
- *  16. stats
- *  17. contact
- *  18. footer
- *
- * =================================================================== 
- */
-
-
 /** 
  * ===================================================================
  * 01. webfonts and iconfonts - (_document-setup.scss)
@@ -157,7 +126,7 @@ h6, .h06 {
 }
 #profile_img {
 	margin-right: 4%;
-	margin-bottom: 4%;
+	/* margin-bottom: 4%; */
 	display: inline-block;
 }
 p img {
@@ -605,7 +574,7 @@ input[type="url"]:focus,
 input[type="password"]:focus,
 textarea:focus,
 select:focus {
-	color: #cc005f;
+	color: #FF0077;
 	border-bottom: 1px solid #FF0077;
 }
 label, legend {
@@ -1130,8 +1099,8 @@ header .top-bar {
 	/* margin-top: 25px;
 	position: relative;
 } */
-/* header .logo a {
-	display: block;
+ header .logo a {
+/*	display: block;
 	margin: 0;
 	padding: 0;
 	border: none;
@@ -1140,17 +1109,17 @@ header .top-bar {
 	color: transparent;
 	/* width: 92px; */
 	width: 100%;
-	height: 15px; */
+	height: 15px; 
 	/* background: url("../images/logo.png") no-repeat center; */
-	/* background-size: 92px 15px; 
-}*/
+	/* background-size: 92px 15px;  */
+}
 
 /**
  * menu toggle - (_layout.css)
  * ------------------------------------------------------------------- 
  */
 .menu-toggle {
-	float: left;  
+	float: right;  
 	width: 40px;
 	height: 40px;
 	margin-left: 20px;
@@ -1262,7 +1231,7 @@ header .top-bar {
 .main-navigation > li {
 	display: block;
 	height: auto;
-	text-align: left;
+	text-align: right;
 	padding: 0;
 }
 .main-navigation li a {
@@ -1362,7 +1331,7 @@ header .top-bar {
 
 }
 .intro-content h5 {
-	color: #cc005f;
+	color: #FF0077;
 	font-family: "poppins-bold", sans-serif;
 	font-size: 3rem;
 	line-height: 1.565;
@@ -1412,7 +1381,7 @@ header .top-bar {
 }
 .intro-content .button:hover, .intro-content .button:focus {
 	/* border-color: #cc005f; */
-	border: 2px solid #cc005f;
+	border: 2px solid #FF0077;
 }
 .intro-content .button::after {
 	display: inline-block;
@@ -1445,7 +1414,7 @@ header .top-bar {
 	/* color: #cc005f; */
 }
 .intro-social li a:hover, .intro-social li a:focus {
-	color: #cc005f;
+	color: #FF0077;
 }
 
 /**
@@ -1986,7 +1955,7 @@ header .top-bar {
 	border-right: 1px solid rgba(200, 200, 200, 0.1);
 }
 .popup-modal .link-box a:hover {
-	background: #cc005f;
+	background: #FF0077;
 	border: none;
 }
 @media only screen and (max-width:600px) {
@@ -2627,7 +2596,7 @@ footer .copyright span:last-child::after {
 	width: 6rem;
 	line-height: 6.6rem;
 	text-align: center;
-	background: #cc005f;
+	background: #FF0077;
 	color: #FFFFFF;
 	text-align: center;
 	text-transform: uppercase;
