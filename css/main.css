@@ -1124,6 +1124,7 @@ header .top-bar {
 	height: 40px;
 	margin-left: 20px;
 	margin-top: 13px;
+	margin-right: 15px;
 	display: block;
 	position: relative;
 }
@@ -1221,7 +1222,7 @@ header .top-bar {
 /* dropdown nav */
 .main-navigation {
 	background: #000000;
-	padding: 24px 30px 42px;
+	padding: 24px 25px 42px;
 	margin: 0;
 	width: 100%;
 	height: auto;
