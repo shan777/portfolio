@@ -719,8 +719,8 @@ button.stroke.large, .button.stroke.large {
 	line-height: 5.4rem !important;
 }
 button.stroke:hover, .button.stroke:hover {
-	/* border: 3px solid #FF0077; */
-	color: #FF0077;
+	border: 3px solid #FF0077; 
+	/* color: #FF0077; */
 	/* background-color: white; */
 }
 button.button-primary:hover, .button.button-primary:hover {
