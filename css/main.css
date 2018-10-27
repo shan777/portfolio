@@ -430,7 +430,7 @@ img.pull-left {
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background: #151515;
+	background: #14324C;
 	z-index: 800;
 	height: 100%;
 	width: 100%;
@@ -1226,7 +1226,7 @@ header .top-bar {
 
 /* dropdown nav */
 .main-navigation {
-	background: #000000;
+	background: #14324C;
 	padding: 24px 25px 42px;
 	margin: 0;
 	width: 100%;
@@ -2564,7 +2564,7 @@ footer .copyright span::after {
 	content: "|";
 	display: inline-block;
 	padding: 0 1rem 0 1.2rem;
-	color: rgba(255, 255, 255, 0.1);
+	color: white;
 }
 footer .copyright span:last-child::after {
 	display: none;
@@ -2623,11 +2623,12 @@ footer .copyright span:last-child::after {
 	transition: all 0.3s ease-in-out;
 }
 #go-top a i {
-	font-size: 1.6rem;
+	font-size: 2rem;
 	line-height: inherit;
 }
 #go-top a:hover {
-	background: #000000;
+	color: #14324C;
+	font-size: 3em;
 }
 
 /*# sourceMappingURL=main.css.map */
