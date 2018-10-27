@@ -674,7 +674,7 @@ button.button-primary,
 input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
-	background: #313131;
+	background: #14324C;
 	color: #FFFFFF;
 }
 .button.button-primary:hover,
@@ -688,7 +688,7 @@ button.button-primary:focus,
 input[type="submit"].button-primary:focus,
 input[type="reset"].button-primary:focus,
 input[type="button"].button-primary:focus {
-	background: #1f1f1f;
+	background: #14324C;
 }
 button.full-width, .button.full-width {
 	width: 100%;
@@ -2385,7 +2385,7 @@ header .top-bar {
 	margin-top: 4.8rem;
 	width: 30%;
 	min-width: 220px;
-	background: black;
+	background: #082A43;
 	/* color: #FFFFFF; */
 	color: white;
 }
@@ -2394,9 +2394,9 @@ header .top-bar {
 }
 
 #contact button.submitform:hover, #contact button.submitform:focus {
-	background: white;
-	border: 2px black solid;
-	color: black;
+	background: #14324C;
+	border: 2px #14324C;
+	color: #FF0077;
 }
 #message-warning, #message-success {
 	display: none;
