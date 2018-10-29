@@ -2233,7 +2233,7 @@ header .top-bar {
  * responsive:
  * stats
  * -------------------------------------------------------------------
- */
+ 
 @media only screen and (max-width:1024px) {
 	#stats .stat:nth-child(n) {
 		border-left: 1px solid rgba(255, 255, 255, 0.12);
@@ -2256,7 +2256,7 @@ header .top-bar {
 		border: none;
 	}
 }
-
+*/
 
 /** 
  * ===================================================================
@@ -2364,7 +2364,6 @@ header .top-bar {
 	background-color: rgb(255, 255, 255);
 	/* color: #FFFFFF; */
 	color: black;
-
 }
 #contact textarea {
 	min-height: 20rem;
@@ -2414,6 +2413,11 @@ header .top-bar {
 }
 #message-warning i, #message-success i {
 	margin-right: 10px;
+}
+#contactMessage:focus {
+	background-color: rgb(255, 255, 255);
+	/* color: #FFFFFF; */
+	color: black;
 }
 
 /* form loader */
