@@ -1510,7 +1510,7 @@ header .top-bar {
 .intro-info img {
 	height: 15rem;
 	/* width: 15rem; */
-	border-radius: 50%;
+	border-radius: 30%;
 	border: 0.5px dotted black;
 	margin: .9rem 0 0 0;
 	float: left;
@@ -2139,6 +2139,11 @@ header .top-bar {
 .services-content {
 	max-width: 1200px;
 }
+
+.services-content>img {
+	padding: 2%;
+}
+
 .services-list {
 	margin-top: 1.2rem;
 	text-align: center;
