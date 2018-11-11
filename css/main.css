@@ -1800,7 +1800,7 @@ header .top-bar {
 	padding-bottom: 12rem;
 }
 #portfolio .folio-item {
-	padding: 0;
+	padding: 5%;
 	position: relative;
 	overflow: hidden;
 }
