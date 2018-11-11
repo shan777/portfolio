@@ -1007,11 +1007,10 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  *
  * ------------------------------------------------------------------- 
  */
-.grey-section {
-	/* background: #ebebeb; */
-	background: #efe5f3ef;
+/* .grey-section {
+	background: white;
 	/* opacity: .1; */
-}
+} */
 .grey-section p.lead {
 	color: #7d7d7d;
 }
@@ -1339,7 +1338,7 @@ header .top-bar {
 .intro-content h5 {
 	color: #FF0077;
 	font-family: "poppins-bold", sans-serif;
-	font-size: 3rem;
+	font-size: 3.5rem;
 	line-height: 1.565;
 	margin-bottom: 0;
 	text-transform: uppercase;
@@ -1348,7 +1347,7 @@ header .top-bar {
 }
 .intro-content .intro-position {
 	font-family: "poppins-bold", sans-serif;
-	font-size: 2rem;
+	font-size: 2.1rem;
 	line-height: 2.7rem;
 	text-transform: uppercase;
 	letter-spacing: .2rem;
@@ -1375,13 +1374,13 @@ header .top-bar {
 }
 .intro-content .button {
 	/* color: #FFFFFF !important; */
-	color: black;
+	color: whitesmoke;
 	border-color: rgba(255, 255, 255, 0.3);
 	height: 6rem !important;
 	line-height: 5.4rem !important;
 	padding: 0 3.5rem 0 3rem !important;
 	margin-top: .6rem;
-	font-size: 1.3rem;
+	font-size: 1.5rem;
 	text-transform: uppercase;
 	letter-spacing: .25rem;
 }
@@ -1709,6 +1708,18 @@ header .top-bar {
 	position: absolute;
 	left: 0;
 	bottom: 0;
+}
+#resume .overlay {
+	position: absolute;
+	top: 0;
+	left: 50;
+	width: 100%;
+	height: 100%;
+	background: #edcafde8;
+	opacity: .1;
+}
+#resume {
+	background-color: white;
 }
 
 /**
@@ -2118,7 +2129,6 @@ header .top-bar {
 	height: 100%;
 	background: #edcafde8;
 	opacity: .1;
-	/* background-color: white; */
 }
 
 #services .section-intro {
@@ -2383,14 +2393,13 @@ header .top-bar {
 	font-size: 1.5rem;
 	display: block;
 	letter-spacing: .2rem;
-	height: 6.6rem;
-	line-height: 6.6rem;
+	height: 5rem;
+	line-height: 3.6rem;
 	padding: 0 3rem;
-	margin-top: 4.8rem;
-	width: 30%;
-	min-width: 220px;
+	margin-top: 3.8rem;
+	width: 25%;
+	min-width: 185px;
 	background: #082A43;
-	/* color: #FFFFFF; */
 	color: white;
 }
 .form-field.submitform button.form-field.submitform{
