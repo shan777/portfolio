@@ -137,6 +137,20 @@ p.lead {
 	font-size: 2rem;
 	line-height: 1.5;
 	color: #888888;
+	border: 1px solid navy;
+
+	display: inline-block;
+}
+p.lead:hover {
+	color: pink;
+}
+ul.lead {
+	font-family: "lora-regular", serif;
+	font-size: 2rem;
+	line-height: 1.5;
+	color: #888888;
+	border: 1px solid navy;
+	display: inline-block;
 }
 @media only screen and (max-width:768px) {
 	p.lead {
