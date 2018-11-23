@@ -182,8 +182,6 @@ p.lead {
 	font-size: 2rem;
 	line-height: 1.5;
 	color: #888888;
-	border: 1px solid navy;
-
 	display: inline-block;
 }
 p.lead:hover {
@@ -1390,7 +1388,7 @@ header .top-bar {
 	margin-bottom: .6rem;
 	margin-left: auto;
 	margin-right: auto;
-	text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+	text-shadow: 4px 8px 20px rgba(0, 0, 0, 0.5);
 	/* text-shadow: 0 0 20px white;  */
 
 }
@@ -1417,7 +1415,7 @@ header .top-bar {
 .intro-content .intro-position span {
 	display: inline-block;
 }
-.intro-content .intro-position span::after {
+/* .intro-content .intro-position span::after {
 	content: "|";
 	text-align: center;
 	display: inline-block;
@@ -1430,10 +1428,10 @@ header .top-bar {
 	display: inline-block;
 	padding: 0 14px 0 8px;
 	color: rgba(255, 255, 255, 0.3);
-}
+} */
 .intro-content .button {
 	/* color: #FFFFFF !important; */
-	color: whitesmoke;
+	color: black;
 	border-color: rgba(255, 255, 255, 0.3);
 	height: 6rem !important;
 	line-height: 5.4rem !important;
